@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Força e Ação</title>
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+                <!-- Cabeçalho -->
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <div class="btn-menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </div>
+            </label>
+            <ul class="lista-menu body-lista">
+                <li class="lista-menu__item">
+                    <a href="/index.html" class="lista-menu__link">Início</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/modalidades.html" class="lista-menu__link">Modalidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/horarios.html" class="lista-menu__link">Horário</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="/contato.html" class="lista-menu__link">Unidade</a>
+                </li>
+            </ul>
+            <img src="img/img_logo_preview.png" class="container__imagem imagem-logo logo-header">
+        </div>
+
+        <ul class="opções">  
+            <li class="opções__item"><a href="/index.html" class="opções__link">Início</a></li>  
+            <li class="opções__item"><a href="/modalidades.html" class="opções__link">Modalidades</a></li>
+            <li class="opções__item"><a href="/horarios.html" class="opções__link">Horário</a></li>
+            <li class="opções__item"><a href="/contato.html" class="opções__link">Unidade</a></li>
+        </ul>
+
+        <div class="flex-content-center">
+            <img src="img/img_logo_preview.png" class="container__imagem imagem-logo">
+        </div>
+
+    </header>
+
+                            <!-- SLIDES  -->
+    <section class="carrossel">
+        <div>
+            <img src="/img/tela de fundo.png" class="img_fundo" alt="">
+        </div>
+        <div class="modalidade__titulo"><h1 class="titulo">MODALIDADES</h1></div>
+        <div class="container_img_servicos">
+            
+            <div class="container_card card-container">
+                <img class="img_card" src="img/jiujitsu.jpg" alt="">
+                <div class="info_card">
+                    <span class="label_card">Jiu-Jitsu</span>
+                </div>
+            </div>
+            <div class="container_card card-container">
+                <img class="img_card" src="img/muay thai.jpg" alt="">
+                <div class="info_card">
+                    <span class="label_card">Muay thai</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container_img_servicos">
+            <div class="container_card card-container">
+                <img class="img_card " src="img/boxe.jpg" alt="">
+                <div class="info_card">
+                    <span class="label_card">Boxe</span>
+                </div>
+            </div>
+            <div class="container_card card-container">
+                <img class="img_card " src="img/mma.jpeg" alt="">
+                <div class="info_card">
+                    <span class="label_card">MMA</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Venha nos fazer uma visita.</h2>
+            <p class="contato__texto">Clique no botão para receber a localização no Google Maps</p>
+        </div>
+        <a href="https://www.google.com/maps?q=-15.73914810113325,-48.26854173559214" target="_blank">
+            <button type="button" class="contato__formulario "></button>
+        </a>
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+
+        <div class="flex-column">
+            <img class="logo-rodape" src="img/img_logo_preview.png">
+            <span class="textoRodape mobile">
+                <div class="copyright">
+                    <i class="fas fa-copyright"></i>
+                    <span>Copyright© 2024 Força & Ação, todos os direitos reservados.</span>
+                  </div>
+            </span>            
+        </div>
+        <div class="conteudo-rodape">
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="contato-dropdown">Contato</ul>
+                    <!-- <div id="contato-opcoes" style="display: none;"> -->
+                        <li class="flex-align-center flex-icons">                            
+                            <a href="https://wa.me/5561984143672" target="_blank">
+                                <img class="" src="./img/icon-whatsapp.svg" alt="Ícone do WhatsApp">
+                            </a>
+                            <a href="https://www.instagram.com/instituto.forca_acao/" target="_blank">
+                                <img class="" src="./img/icon-instagram.svg" alt="Ícone do Instagram">
+                            </a>
+                        </li>
+                                          
+                    <!-- </div> -->
+            </div>
+            <div class="textoRodape">
+                <ul class="f-bold f-20" id="serviços-dropdown">Modalidades</ul>
+                <!-- <div id="serviços-opcoes" style="display: none;"> -->
+                    <li><a href="modalidades.html" class="lista-rodapé__link">Jiu-Jitsu</a></li>
+                    <li><a href="modalidades.html" class="lista-rodapé__link">Muay Thai</a></li>
+                    <li><a href="modalidades.html" class="lista-rodapé__link">MMA</a></li>
+                    <li><a href="modalidades.html" class="lista-rodapé__link">Boxe</a></li>
+                <!-- </div> -->
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById("menu");
+        const menu = document.querySelector(".lista-menu");
+      
+        // Event listener para abrir/fechar o menu
+        menuButton.addEventListener("change", () => {
+          if (menuButton.checked) {
+            menu.style.display = "block";
+            // Adicione um event listener no documento para fechar o menu ao clicar fora
+            document.addEventListener("click", closeMenu);
+          } else {
+            menu.style.display = "none";
+            // Remova o event listener quando o menu estiver fechado
+            document.removeEventListener("click", closeMenu);
+          }
+        });
+      
+        function closeMenu(event) {
+          if (!menu.contains(event.target) && event.target !== menuButton) {
+            // Clique fora do menu, fecha o menu
+            menu.style.display = "none";
+            document.removeEventListener("click", closeMenu);
+            menuButton.checked = false;
+          }
+        }
+      </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 1000,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            a11y: {
+                prevSlideMessage: 'Previous slide',
+                nextSlideMessage: 'Next slide',
+            },
+            effect: 'fade',
+                fadeEffect: {
+                    rotate: 30,
+                    slideShadows: false,
+            },
+            autoplay: {
+                delay: 2000,
+                
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slideToClickedSlide: true,
+            touchReleaseOnEdges: 0,
+           
+        });
+
+    </script>
+</body>
+
+</html>
